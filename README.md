@@ -69,20 +69,20 @@ Siga os passos abaixo para configurar o projeto localmente:
 
 ```plaintext  
 nearby/  
-├── assets/         # Imagens e outros recursos estáticos  
-├── src/            # Código-fonte principal  
-│   ├── app/        # Configuração principal do app  
-│   ├── assets/     # Recursos estáticos usados internamente no código  
-│   ├── components/ # Componentes reutilizáveis (botões, inputs, etc.)  
-│   ├── styles/     # Estilos globais e configurações de tema  
-│   └── utils/      # Funções utilitárias e helpers (validações, máscaras, etc.)  
-├── .gitignore      # Arquivos e pastas ignorados pelo Git  
-├── app.json        # Configurações do Expo para o aplicativo  
-├── expo-env.d.ts   # Definições de tipo para variáveis de ambiente do Expo  
+├── assets/           # Imagens e outros recursos estáticos  
+├── src/              # Código-fonte principal  
+│   ├── app/          # Configuração principal do app  
+│   ├── assets/       # Recursos estáticos usados internamente no código  
+│   ├── components/   # Componentes reutilizáveis (botões, inputs, etc.)  
+│   ├── styles/       # Estilos globais e configurações de tema  
+│   └── utils/        # Funções utilitárias e helpers (validações, máscaras, etc.)  
+├── .gitignore        # Arquivos e pastas ignorados pelo Git  
+├── app.json          # Configurações do Expo para o aplicativo  
+├── expo-env.d.ts     # Definições de tipo para variáveis de ambiente do Expo  
 ├── package-lock.json # Arquivo de lock para dependências do npm  
-├── package.json    # Dependências e scripts do projeto  
-├── README.md       # Documentação do projeto  
-└── tsconfig.json   # Configurações do TypeScript  
+├── package.json      # Dependências e scripts do projeto  
+├── README.md         # Documentação do projeto  
+└── tsconfig.json     # Configurações do TypeScript  
 ```  
 
 ---

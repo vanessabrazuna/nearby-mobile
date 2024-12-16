@@ -1,8 +1,8 @@
-import { 
-  TouchableOpacity, 
-  TouchableOpacityProps, 
-  Text, 
-  TextProps, 
+import {
+  TouchableOpacity,
+  TouchableOpacityProps,
+  Text,
+  TextProps,
   ActivityIndicator,
 } from "react-native"
 import { IconProps as TablerIconProps } from "@tabler/icons-react-native"
@@ -14,20 +14,19 @@ type ButtonProps = TouchableOpacityProps & {
   isLoading?: boolean
 }
 
-function Button({ children, style , isLoading = false, ...rest }: ButtonProps) {
+function Button({ children, style, isLoading = false, ...rest }: ButtonProps) {
   return (
-    <TouchableOpacity 
+    <TouchableOpacity
       style={[s.container, style]}
       activeOpacity={0.8}
       disabled={isLoading}
       {...rest}
     >
-      { 
-        isLoading ? ( 
-          <ActivityIndicator size="small" color={colors.gray[100]} /> 
-        ) : ( 
-          children 
-        )}
+      {isLoading ? (
+        <ActivityIndicator size="small" color={colors.gray[100]} />
+      ) : (
+        children
+      )}
     </TouchableOpacity>
   )
 }

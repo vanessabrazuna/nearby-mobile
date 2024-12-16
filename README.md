@@ -7,6 +7,12 @@ Este projeto foi desenvolvido utilizando **React Native**, com suporte a **TypeS
 
 ---
 
+## 📱 Visual do Projeto  
+
+![Nearby](./.github/nearby.png)
+
+---
+
 ## 🚀 Tecnologias Utilizadas  
 
 - **[React Native](https://reactnative.dev/)**: Framework para desenvolvimento de aplicativos móveis multiplataforma.  

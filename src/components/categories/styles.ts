@@ -7,9 +7,8 @@ export const s = StyleSheet.create({
     zIndex: 1,
     top: 64,
   },
-
   content: {
     gap: 8,
     paddingHorizontal: 24,
-  }
+  },
 })
